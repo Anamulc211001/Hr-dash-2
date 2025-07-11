@@ -60,7 +60,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activeSection, setActiveSection, isOp
               {isOpen ? (
                 <div className="flex items-center space-x-3">
                   <img
-                    src="/Light Brown and Green Elegant Corporate Logo.png"
+                    src="/logo.png"
                     alt="Company Logo"
                     className="w-10 h-10 lg:w-12 lg:h-12 object-contain flex-shrink-0"
                   />
@@ -74,7 +74,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activeSection, setActiveSection, isOp
               ) : (
                 <div className="w-full flex justify-center">
                   <img
-                    src="/Light Brown and Green Elegant Corporate Logo.png"
+                    src="/logo.png"
                     alt="Company Logo"
                     className="w-8 h-8 object-contain"
                   />
